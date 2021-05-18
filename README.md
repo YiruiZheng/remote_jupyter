@@ -6,13 +6,13 @@
 
 #### 使用前
 
-1. 修改remote_jupyter.sh脚本中的remote_localhost， 挑一个你喜欢的数字，避免与别人冲突
+1. 修改remote_jupyter.sh脚本中的remote_localhost，jupyter通常默认是8888，但很容易与别人冲突，不妨挑一个你喜欢的数字，避免与别人冲突。
 2. 修改**两个**脚本中user@remote, 改成你的用户名和服务器
 3. `chmod +x remote_jupyter.sh close_jupyter_tunnel.sh`
 
 #### 使用时
 
-1. 运行``bash remote_jupyter.sh` 或者 `./remote_jupyter.sh`，这时最后一行输出应该是 "http://localhost:8888/?token=dkfajfkajfklajf"之类， 把 token 复制下来
+1. 运行``bash remote_jupyter.sh` 或者 `./remote_jupyter.sh`，这时最后一行输出大概是 "http://localhost:8888/?token=dkfajfkajfklajf"， 把 token 复制下来
 2. 打开浏览器，输出“locahost:9999"，如果提示要token或者password, 把上一步复制的token粘贴上去
 
 #### 使用后
